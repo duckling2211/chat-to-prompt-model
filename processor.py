@@ -2,10 +2,10 @@
 
 from typing import Dict, Any, Optional
 # Import các models cơ bản
-from chat_project.core.base import CommandResponse, ActionType
+from core.base import CommandResponse, ActionType
 
 # Import TẤT CẢ các Handlers
-from chat_project.handlers.handler import MoneyTransactionHandler, PaymentStatusHandler, InfoAddHandler, InfoFindHandler
+from handlers.handler import MoneyTransactionHandler, PaymentStatusHandler, InfoAddHandler, InfoFindHandler
 
 # ... (nếu có các handlers khác)
 

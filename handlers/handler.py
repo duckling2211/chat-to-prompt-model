@@ -2,9 +2,9 @@
 
 import re
 from typing import Dict, Any
-from chat_project.core.cost import get_payment_system
-from chat_project.core.info_hub import get_info_hub
-from chat_project.core.base import PaymentBaseHandler, CommandResponse, ActionType, BaseCommandHandler
+from .core.cost import get_payment_system
+from .core.info_hub import get_info_hub
+from .core.base import PaymentBaseHandler, CommandResponse, ActionType, BaseCommandHandler
 
 
 class MoneyTransactionHandler(PaymentBaseHandler):
