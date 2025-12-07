@@ -5,7 +5,7 @@ from typing import Dict, Any
 
 # Import các thành phần của hệ thống
 from processor import process_chat_command
-from core.base import CommandResponse  # Cần thiết cho type hint
+from base import CommandResponse  # Cần thiết cho type hint
 
 # 1. KHỞI TẠO APP
 app = FastAPI(
